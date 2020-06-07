@@ -1,0 +1,16 @@
+background blue     #3F4163
+background grey:    #EFEFEF
+
+buttons
+    border:         #C1C1C1
+    background:     #D8D8D8
+
+light buttons
+    border:         none
+    background:     #5D5F82
+
+input
+    border:         #707070
+    background:     white
+
+text:               #111
