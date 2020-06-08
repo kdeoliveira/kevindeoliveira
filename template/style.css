@@ -245,6 +245,8 @@ article .article-content{
 }
 
 .animate_fade{
+    -webkit-animation: fadeIn linear 0.5s infinite;
+    -ms-animation: fadeIn linear 0.5s infinite;
     animation: fadeIn linear 0.5s infinite;
 }
 
@@ -253,4 +255,7 @@ article .article-content{
     to { fill: var(--background-dark); }
 }
 
-
+@-webkit-keyframes fadeIn{
+    from { fill: none; }
+    to { fill: var(--background-dark); }
+}
