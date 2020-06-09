@@ -250,12 +250,12 @@ article .article-content{
     animation: fadeIn linear 0.5s infinite;
 }
 
-@keyframes fadeIn{
-    from { fill: none; }
-    to { fill: var(--background-dark); }
+@-webkit-keyframes fadeIn{
+    from { fill-opacity: 0; }
+    to { fill-opacity: 1; }
 }
 
-@-webkit-keyframes fadeIn{
-    from { fill: none; }
-    to { fill: var(--background-dark); }
+@keyframes fadeIn{
+    from { fill-opacity: 0; }
+    to { fill-opacity: 1; }
 }
