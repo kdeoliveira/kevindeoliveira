@@ -246,13 +246,10 @@ article .article-content{
 
 .animate_fade{
     -webkit-animation: fadeIn linear 0.5s infinite;
+    -o-animation: fadeIn linear 0.5s infinite;
+    -moz-animation: fadeIn linear 0.5s infinite;
     -ms-animation: fadeIn linear 0.5s infinite;
     animation: fadeIn linear 0.5s infinite;
-}
-
-@-webkit-keyframes fadeIn{
-    from { fill-opacity: 0; }
-    to { fill-opacity: 1; }
 }
 
 @keyframes fadeIn{
