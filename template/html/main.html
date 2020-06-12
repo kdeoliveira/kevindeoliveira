@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <link rel="stylesheet" href="../style.css">
+    <title>Document</title>
+</head>
+<body>
+    <section class="one_page flex">
+        <div class="sidebar">
+            <div class="scrollable">
+                    <div class="s_menu flex_column">  
+                        <object data="../logo_w.svg" type="image/svg+xml" class="w-100"></object>
+                        <a href="#" > Projects 
+                        </a>
+                        <a href="#" > Git
+                        </a>
+                        <a href="#" > Network
+                        </a>
+                        <a href="#" > About Me
+                        </a>
+                        <a href="#" > Reach me
+                        </a>
+                        <a href="#" > More
+                        </a>
+                        <div class="menu_more menu_more_rotate" onclick="menuMoreIcon(this)">
+                        </div>
+                    </div>
+
+            </div>
+        </div>
+        <div class="content">
+
+        </div>
+    </section>
+
+    <script>
+        
+        var v_menu = document.getElementsByClassName("v_menu");
+
+        //Menu Icon Button
+        function menuMoreIcon(x){
+            x.classList.toggle('menu_more_rotate');
+            // v_menu[0].classList.toggle('v_menu_on');
+        }
+    </script>
+</body>
+</html>

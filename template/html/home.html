@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <link rel="stylesheet" href="../style.css">
+    <title>Document</title>
+</head>
+<body>
+    <section class="one_page flex">
+        <div class="left_column">
+            <div class="container">
+                <object data="../logo.svg" type="image/svg+xml" class="w-150"></object>
+            </div>
+        </div>
+        <div class="right_column">
+            <div class="scrollable">
+                <div class="container_y">
+                    <div class="v_menu flex_column">  
+                        <a href="main.html" > Projects 
+                            <span class="dialog_box">Checkout our last project released</span>
+                        </a>
+                        <a href="#" > Git
+                            <span class="dialog_box">Our last project in progress</span>
+                        </a>
+                        <a href="#" > Network
+                            <span class="dialog_box">Member access</span>
+                        </a>
+                        <a href="#" > About Me
+                            <span class="dialog_box">Get to know who created this</span>
+                        </a>
+                        <a href="#" > Reach me
+                            <span class="dialog_box">Need to get in touch with us?</span>
+                        </a>
+                        <a href="#" > More
+                            <span class="dialog_box">More information of our services</span>
+                        </a>
+                    </div>
+                    <div class="menu_button" onclick="menuIcon(this)">
+                        <div class="bar"></div>
+                        <div class="bar"></div>
+                        <div class="bar"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        
+        var v_menu = document.getElementsByClassName("v_menu");
+
+        //Menu Icon Button
+        function menuIcon(x){
+            x.classList.toggle('rotate');
+            v_menu[0].classList.toggle('v_menu_on');
+        }
+    </script>
+</body>
+</html>
